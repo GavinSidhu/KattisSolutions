@@ -1,1 +1,1 @@
-This folder consists of Kattis Solutions
+This folder contains solutions to various Kattis problems.

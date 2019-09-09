@@ -1,12 +1,14 @@
-num = int(input())
-while num > 0:
-    i = 1 
-    t = 0
+speedChange = int(input())
+while speedChange > -1:
+    i = 0
     total = 0
-    while i <= num:
+    t = 0
+    while i < speedChange:
         x, y = map(int, input().split())
         total = total + (x * (y - t))
         t = y
-        i += 1
-    print(total)
-            
+        i = i + 1
+    print(str(total) + " miles")
+    speedChange = int(input())
+
+                 
